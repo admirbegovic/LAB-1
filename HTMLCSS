@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Program</title>
+<meta charset="utf-8">
+<script src="proglangs.js"></script>
+<style>
+body
+{
+background-color:#FFFF66;
+}
+</style>
+
+<style>
+h1 {text-align:center}
+</style>
+<style>
+ul
+{
+width: 6%;
+margin: auto;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Programmeringsspråk</h1>
+<hr color="black">
+<div style="color:#0000FF">
+  <ul>
+  <li id="first7">ActionScript </li>
+  <li>AppleScript</li>
+  <li>Asp</li>
+  </ul>
+  </div>
+
+  <br>
+
+<div style="color:#FF3333">
+ <ul> 
+ <li>BASIC</li>
+ </ul>
+</div>
+
+<br>
+
+<div style="color:#FF0066">
+<ul>
+<li>C</li>
+<li>C++</li>
+<li>Clojure</li>
+<li>COBOL</li>
+<li>ColdFusion</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#00FF00">
+<ul>
+<li>Erlang</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#003333">
+<ul>
+<li>Fortran</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#0066FF">
+<ul>
+<li>Groovy</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#990000">
+<ul>
+<li>Haskell</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#CC00FF">
+<ul>
+<li>Java</li>
+<li>JavaScript</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#FF3333">
+<ul>
+<li>Lisp</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#0033FF">
+<ul>
+<li>Perl</li>
+<li>PHP</li>
+<li>Python</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#FF66CC">
+<ul>
+<li>Ruby</li>
+</ul>
+</div>
+
+<br>
+
+<div style="color:#00CCCC">
+<ul>
+<li>Scala</li>
+<li>Scheme</li>
+</ul>
+</div>
+<br>
+<form>
+		<label for="whatever">velg:</label>
+		<select id="proglangs" onChange="changeText('proglangs')";>
+			<option value=0">Velg</option>
+			<option value="1">Actionscript</option>
+			<option value="2">Applescript</option>
+			<option value="3">asp</option>
+			<option value="4">Basic</option>
+			<option value="5">c++</option>
+			<option value="6">Clojure</option>
+			<option value="7">COBOL</option>
+			<option value="8">Coldfusion</option>
+			<option value="9">Erlang</option>
+			<option value="10">Fortran</option>
+			<option value="11">Groovy</option>
+			<option value="12">Haskell</option>
+			<option value="13">Java</option>
+			<option value="14">Javascript</option>
+			<option value="15">Lisp</option>
+			<option value="16">Perl</option>
+			<option value="17">PhP</option>
+			<option value="18">Python</option>
+			<option value="19">Ruby</option>
+			<option value="20">Scala</option>
+			<option value="21">Scheme</option>		
+		</select>
+	</form>
+	<br>
+<span id="outputbox">Ingen programmeringsspråk er valgt. Velg et programmeringsspråk!</span>
+
+
+
+
+</body>
+</html>
