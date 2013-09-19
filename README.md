@@ -25,5 +25,5 @@ Legg merke til at jeg har lagt inn kommentarer for hver funksjon og beskriver li
 
 Lagt til Progangs.css som ikke var med sist gang, dermed er ikke proglangs.html fult av CSS koder, så de fleste er nå lagt til i proglangs.css for å holde det ryddig.
 
-Filene burde fungere sammen, og grunnen til at det er så mange filer at at enhver side skal koble seg til og fungere sammen med NAV menuen som er med i koden, sånn at javascript kan koble seg til HTML filen og gi brukeren et brukbart respons i en alert box som vil dukke opp.
+Grunnen til at det er så mange filer er at de skal koble seg til menuen som jeg har lagt oppe i venstre hjørne. Jeg har gjort litt mer enn det jeg skulle, fordi jeg har fått alfabetisk.html siden til å fungere, men foreløpig har jeg koblet opp "hierarkisk.html & kronologisk.html" opp mot javascript filer som da vil gi brukeren et brukbart respons om at de to sidene er under konstruksjon. 
 
