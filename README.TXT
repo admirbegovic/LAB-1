@@ -1,4 +1,4 @@
-0. Hva kan javascript brukes til?
+﻿0. Hva kan javascript brukes til?
 Javascript brukes til å manipulere HTML tekster (dynamisk), de mener det er lett å lære javascript og at alle nettlesere kan lese javascript språket.Javascript er også blant det mest brukte programmeringsspråket i verden.
 
 1.Hva er forskjellen på CSS ID og class elementer.
@@ -44,3 +44,14 @@ Problemer den kan forårsake når du først prøver å implementere javascript i
 Gjør du noe feil i språket, får du enten null ellers vil ikke javascripten funke i det hele tatt, og det er veldig vanskelig å finne feil med mindre du grunding og nøye ser etter feilen.
 Du kan også prioritere i vindu listen hva som skal komme først og sist, alfabetisk eller etter din rekkefølge, men da vil det kreve ett litt mer avansert oppsett vil jeg tro.
 Det er flere måte å få en brukbar respons på, enten å lage en liste med textblock og (antall programmeringsspråk i listen) eller så kan du bruke "SPAN ID OUTPUT BOX (tekst som skal endres) For hver av programmeringsspråkene.
+
+
+LAB2
+
+Oppgave 1: Hvilke deler av min aplikasjon forklarer MVC? "Model, View, Controller"
+Du har tre filer, CSS, JS og HTML
+Model: HTML er generelt modellen og inneholder dataen vår.
+View: CSS filen er view, denne filen bestemmer hvordan vår data skal se ut. Eventuelt, farger, utseende osv osv... Det typiske CSS gjør er jo å endre på utseende til dataen vår.
+Controller: Javascript filen kontrollerer eller manipulerer HTML filen. Den bestemmer også hva som skal vises av HTML filen. 
+
+Poenget med MVC er å minske repetisjon av data og evt gjøre det mer oversiktlig.
