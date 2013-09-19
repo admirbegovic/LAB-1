@@ -14,3 +14,5 @@ ble så dårlig tid på slutten. Men, jeg fikk i hvertfall gjort oppgaven, men g
 Ville bare si at jeg hadde skrevet inn HTML filen feil inn og denne er nå rettet på. Vil gjerne ha kommentar på hva som evt skulle gjøres som stod i kontrollspørsmålene takk? 
 Janis hadde ikke nevnt noe om at på kontrollspørsmålene skulle ha noe effekt på hva du gjorde med del oppgavene, og dermed prøvde jeg å svare så godt så mulig på kontroll spørsmålene. 
 Vi har ikke fått noe informasjon om at det som stod på kontrollspørsmålene skulle være med i selveste kodingen.
+
+LAB2
