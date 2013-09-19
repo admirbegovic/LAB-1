@@ -1,0 +1,64 @@
+body { /* Her har jeg posisjonert padding left for NAVBAR verdien, og lagt til lilla tekst for den teksten som ikke har farger og er standard, og i tillegg skiftet skriften til en annen type som times new roman, for å få litt stil.*/
+padding-left: 9em;
+font-family: Georgia, "Times New Roman",
+		Times, Serif;
+		Color: Purple;
+		
+}
+
+/* Denne funksjonen tar verdien eller classen "Navbar" som jeg har kalt den, og dermed vil jeg prøve å posisjonere den til det jeg føler ser fint ut. */
+ul.navbar { 
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position:absolute;
+	top: 5em;
+	left: 1em;
+	width: 8em
+}
+	
+ul.navbar li { /* Denne funksjonen redigerer på bakgrunnen til linkene som jeg har angitt i NAVBAR html koden, prøver å gi de en hvit bakgrunn, hvor stor den bakgrunnen til teksten skal være, jeg har valgt hvit og vil prøve å gjøre navigasjonen menuen finere ved å ta i utgangspunkt denne koden her*/
+	background: white;
+	margin: 0.5em;
+	padding: 0.3em;
+	border-right: 1em solid black }
+
+ul.navbar a { /* Disse funksjonene bidrar ved at når brukeren allerede har vært og sett på linken før vil den vises lilla i steden for blå, og motsatt hvis enn ikke har trykket på linken før.*/
+	text-decoration: none }
+	a:link {
+	color: blue }
+	a:visited {
+	color: purple }
+	
+#searchbox /* Posisjonerer søkeboksen oppe til høyre med pixler*/
+{position: absolute;
+top: 20px;
+right: 40px;
+
+}
+
+#proglangs /*variablen av LABEL knappen for "velg" listen er proglangs, dermed har jeg posiosjonert den i midten slik at teksten "søk i programmeringsspråk" er på linje med label knappen.*/
+{position: absolute;
+left:  55%
+}
+
+label /* Label teksten jeg har posiosjonert på siden av knappen slik at det ser ryddig ut. */
+
+{position: absolute;
+right: 45%
+
+}
+
+#outputbox{ /*det er her outputboksen skal skrive ut, så jeg har posisjonert den til midten, lagt inn border samtidig "høyde,lengden" på borderen*/
+     position:absolute;
+     width:500px;
+     height:50px;
+     top:36%;
+     left:50%;
+     margin:-150px 0 0 -150px;
+     background:white;
+}
+
+h2 { /*Ganske basic, sentrerer h2 teksten*/
+text-align:center;
+}

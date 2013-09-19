@@ -1,5 +1,5 @@
 var textBlocks = new Array( 
-'Ingen programmeringsspråk er valgt. Velg et programmgeringsspråk', 
+'Velkommen til en mystisk verden av programmeringsspråk!', 
 'Du har nå valgt Actionscript!', 
 'Du har nå valgt Applescript!',
 'Du har nå valgt Asp!',
@@ -23,5 +23,8 @@ var textBlocks = new Array(
 'Du har nå valgt Scheme!');
 function changeText(elemid) { 
 var ind = document.getElementById(elemid).selectedIndex; 
-document.getElementById("outputbox").innerHTML=textBlocks[ind]; 
+document.getElementById("outputbox").innerHTML=textBlocks[ind]; /*Gjør at output boksen endrer tekst ved valg av et alternativ som du kan se ved linjene nedenfor. Så ved valg vil teksten endre seg til det programmeringsspråket brukeren har valgt*/
 } 
+
+window.alert('Hei, du vil kanskje legge merke til at noen ting ikke fungerer på nettsiden. Linkene kronologisk,Hierarkisk og søke motoren vil midlertidig ikke fungere. Takk for din tålmodighet!'); 
+/*Alert varsel som skal gi et brukbart respons til brukeren om at de angitte linkene/søkefeltet midlertidig ikke fungerer*/

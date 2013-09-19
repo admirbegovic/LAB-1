@@ -2,8 +2,9 @@
 <html>
 <head>
 
-<title>Program</title>
+<title>Programmeringsspråk</title>
 <meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="proglangs.css">
 <script src="proglangs.js"></script>
 <style>
 body
@@ -26,114 +27,24 @@ margin: auto;
 </head>
 
 <body>
-<h1>Programmeringsspråk</h1>
+<h1>Introduksjon til programmeringsspråk</h1>
 <hr color="black">
-<div style="color:#0000FF">
-  <ul>
-  <li id="first7">ActionScript </li>
-  <li>AppleScript</li>
-  <li>Asp</li>
-  </ul>
-  </div>
+<h2>Velkommen til min hjemmeside for programmeringsspråk</h2>
+<form ID="searchbox" action ="demo_form.asp">
+	Søk på programmeringsspråk her: <input type="search" name="searchbox"><br>
+	<input type="submit">
+	</form>
 
-  <br>
-
-<div style="color:#FF3333">
- <ul> 
- <li>BASIC</li>
- </ul>
-</div>
-
-<br>
-
-<div style="color:#FF0066">
-<ul>
-<li>C</li>
-<li>C++</li>
-<li>Clojure</li>
-<li>COBOL</li>
-<li>ColdFusion</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#00FF00">
-<ul>
-<li>Erlang</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#003333">
-<ul>
-<li>Fortran</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#0066FF">
-<ul>
-<li>Groovy</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#990000">
-<ul>
-<li>Haskell</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#CC00FF">
-<ul>
-<li>Java</li>
-<li>JavaScript</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#FF3333">
-<ul>
-<li>Lisp</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#0033FF">
-<ul>
-<li>Perl</li>
-<li>PHP</li>
-<li>Python</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#FF66CC">
-<ul>
-<li>Ruby</li>
-</ul>
-</div>
-
-<br>
-
-<div style="color:#00CCCC">
-<ul>
-<li>Scala</li>
-<li>Scheme</li>
-</ul>
-</div>
+<!-- Site navigation menu -->
+	<ul class="navbar">
+	<li><a href="proglangs.html">Hjem</a>
+	<li><a href="kronologisk.html">Kronologisk</a>
+	<li><a href="hierarkisk.html">Hierarkisk</a>
+	<li><a href="Alfabetisk.html">Alfabetisk</a>
+	</ul>
 <br>
 <form>
-		<label for="whatever">velg:</label>
+		<label for="whatever">Søk i programmeringsspråk:</label>
 		<select id="proglangs" onChange="changeText('proglangs')";>
 			<option value=0">Velg</option>
 			<option value="1">Actionscript</option>
@@ -160,10 +71,9 @@ margin: auto;
 		</select>
 	</form>
 	<br>
-<span id="outputbox">Ingen programmeringsspråk er valgt. Velg et programmeringsspråk!</span>
+	<center>
+	<span id="outputbox">Velkommen til en mystisk verden av programmeringsspråk!</span>
 
-
-
-
+</center>
 </body>
 </html>

@@ -1,0 +1,70 @@
+ul			/* Denne funksjonen gjør at UL listen blir sentrert på ca 6% som jeg har skrevet der, kunne gjort det på en annen måte, men dette var det letteste for meg. Prøvde å sentrere bare teksten. Prøvde å sentrere teksten med text-align, men da ville ikke punktene på listen være sentrert sammen med teksten.*/{
+width:6%;
+margin: auto;}
+
+body /*Koden gjør at bakgrunnsfargen blir lyseblå som vedlagt*/
+{background-color:lightblue;}
+
+h1{text-align:center; /*Sentrerer teksten til H1 element. */
+}
+ul.navbar { /*posisjonerer nav menuen, mitt mål med denne er at jeg prøvde å få den under HR linjen, og dermed posisjonere menuen til venstre*/
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position:absolute;
+	top: 6em;
+	left: 1em;
+	width: 8em
+}	
+	ul.navbar li { /*Gir bakgrunnen til menuen hvit, posisjonerer bakgrunnen med margin og padding ved å gi luft og evt størrelse. Til slutt legger jeg en blackborder på høyresiden av teksten.*/
+	background: white;
+	margin: 0.4em;
+	padding: 0.5em;
+	border-right: 1em solid black }
+#farge1{ /* Alle disse funksjonene nedenfor har jeg gitt en ID til, og dermed lagt til forskjellige farger på hver enkel ID verdi.*/
+color:#0776A0;
+}
+
+#farge2{
+color:#3914AF;
+}
+
+#farge3{
+color:#6F0AAA;
+}
+
+#farge4{
+color:#CD0074;
+}
+
+#farge5{
+color:#ED002F;
+}
+
+#farge6{
+color:#FF5F00;
+}
+
+#farge7{
+color:#FFA200;
+}
+
+#farge8{
+color:#FFDB00;
+}
+
+#farge9{
+color:#00CC00;
+}
+
+#farge10{
+color:#00CC00;
+}
+
+#farge11{
+color:#FF0000;
+}
+
+#farge12{
+color:#00BB3F;
+}
